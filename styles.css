@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(nat1.jpg);
+  }
+  #head{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    border-radius: 5px;
+    font-weight: 900;
+    text-decoration: solid;
+    color:rgb(0, 2, 4);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(0, 28, 139)
+    
+    
+  }
+  #foot{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    border-radius: 5px;
+    font-weight: 900;
+    text-decoration: solid;
+    color:rgb(0, 2, 4);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(0, 28, 139)
+
+  }
+  
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 15rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(2, 13, 14);
+  }
+  
+  .display {
+    width: 100%;
+  }
+  .display input {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+  }
+  
+  ::placeholder {
+    color: rgb(209, 56, 10);
+    opacity: 0.5;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .ac {
+    width: 100%;
+  }
+  
+  button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(2, 255, 124);
+    color: white;
+  }
+  
+  :visited {
+    color: rgb(0, 0, 0);
+  }
